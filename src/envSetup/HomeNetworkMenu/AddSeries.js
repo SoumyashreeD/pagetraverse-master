@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 //import AppService from "../service/Appservice"
-//import history from "../../History";
+import history from "../../History";
 //import '../design/form.css'
 
 class AddSeries extends Component{
@@ -12,7 +12,7 @@ class AddSeries extends Component{
            numbers:'',
             message: null
         }
-        //this.saveSeries = this.saveSeries.bind(this);
+        this.saveSeries = this.saveSeries.bind(this);
         this.handleDropdownChangeGroupType = this.handleDropdownChangeGroupType .bind(this);
   
     }
