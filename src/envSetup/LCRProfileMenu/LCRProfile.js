@@ -7,8 +7,9 @@ class LCRProfile extends Component{
         return(
             <div>
             <form>
-                <h2>This is redirection List Page</h2>
-                <Button variant="btn btn-success" onClick={() => history.push('/add-redirectionList')}>Add Redirection List</Button>
+                <h2>This is LCR Profile Page</h2>
+                <Button variant="btn btn-success" onClick={() => history.push('/add-lcrProfile')}>Add
+                </Button>
             </form>
           </div>
         );

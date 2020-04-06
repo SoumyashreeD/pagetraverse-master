@@ -8,7 +8,8 @@ class OperatorCluster extends Component{
             <div>
             <form>
                 <h2>This is operator cluster Page</h2>
-                <Button variant="btn btn-success" onClick={() => history.push('/add-operatorCluster')}>Add Redirection List</Button>
+                <Button variant="btn btn-success" onClick={() => history.push('/add-operatorCluster')}>add
+                </Button>
             </form>
           </div>
         );

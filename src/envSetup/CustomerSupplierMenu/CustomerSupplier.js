@@ -8,7 +8,8 @@ class CustomerSupplier extends Component{
             <div>
             <form>
                 <h2>This is Customer Supplier Page</h2>
-                <Button variant="btn btn-success" onClick={() => history.push('/add-redirectionList')}>Add Redirection List</Button>
+                <Button variant="btn btn-success" onClick={() => history.push('/add-customerSupplier')}>Add
+                </Button>
             </form>
           </div>
         );

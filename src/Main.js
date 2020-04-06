@@ -12,9 +12,12 @@ import AddRedirectionList from "./envSetup/RedirectionListMenu/AddRedirectionLis
 import OperatorCluster from './envSetup/OperatorClusterMenu/OperatorCluster';
 import AddOperatorCluster from "./envSetup/OperatorClusterMenu/AddOperatorCluster";
 import LCRProfile from "./envSetup/LCRProfileMenu/LCRProfile";
+import AddLCRProfile from "./envSetup/LCRProfileMenu/AddLCRProfile";
 import CustomerSupplier from "./envSetup/CustomerSupplierMenu/CustomerSupplier";
+import AddCustomerSupplier from "./envSetup/CustomerSupplierMenu/AddCustomerSupplier";
 import SCatLCRProfile from "./envSetup/SCatLCRProfileMenu/SCatLCRProfile";
 import HTTPTemplates from "./envSetup/HTTPTemplatesMenu/HTTPTemplates";
+import AddHTTPTemplates from "./envSetup/HTTPTemplatesMenu/AddHTTPTemplates";
 import DealManagement from "./envSetup/DealManagementMenu/DealManagement";
 import AddDealManagement from "./envSetup/DealManagementMenu/AddDealManagement";
 import CustSupplierGrp from "./envSetup/CustSupplierGrpMenu/CustSupplierGrp";
@@ -123,10 +126,13 @@ class Main extends Component{
                     <Route path="/add-operatorCluster" component={AddOperatorCluster}/>
 
                     <Route path="/environmentSetup-lcrProfile" component={LCRProfile}/>
+                    <Route path="/add-lcrProfile" component={AddLCRProfile} />
                     
                     <Route path="/environmentSetup-customerSupplier" component={CustomerSupplier}/>
+                    <Route path="/add-customerSupplier" component={AddCustomerSupplier}/>
 
                     <Route path="/environmentSetup-httpTemplates" component={HTTPTemplates}/>
+                    <Route path="/add-httpTemplates" component={AddHTTPTemplates} />
 
                     <Route path="/environmentSetup-scatLcrProfile" component={SCatLCRProfile}/>
                     
