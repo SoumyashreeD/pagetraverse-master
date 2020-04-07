@@ -70,17 +70,17 @@ class AddRedirectionAccount extends Component{
          
           <div className="form-group">
                     <label for="" class="required">Message Redirection(Per Sec) : </label>
-                    <input type="date" name="msg_red_pc" className="form-control" value={this.state.msg_red_pc} onChange={this.onChange}/>
+                    <input type="text" name="msg_red_pc" className="form-control" value={this.state.msg_red_pc} onChange={this.onChange}/>
                 </div>  
                 <br></br>
                 <div className="form-group">
                     <label for="" class="required">Message Redirection(Per Min) : </label>
-                    <input type="date" name="msg_red_mn" className="form-control" value={this.state.msg_red_mn} onChange={this.onChange}/>
+                    <input type="text" name="msg_red_mn" className="form-control" value={this.state.msg_red_mn} onChange={this.onChange}/>
                 </div>  
                 <br></br>   
                 <div className="form-group">
                     <label for="" class="required">Message Redirection(Per Hour) : </label>
-                    <input type="date" name="msg_red_hr" className="form-control" value={this.state.msg_red_hr} onChange={this.onChange}/>
+                    <input type="text" name="msg_red_hr" className="form-control" value={this.state.msg_red_hr} onChange={this.onChange}/>
                 </div>  
                 <br></br>
                 <div>
