@@ -7,7 +7,7 @@ class AddHTTPTemplates extends Component{
                 <form>
                     <fieldset>
                     <label for="templatename" class="required">Template name:</label>
-                        <input type="text" id="template_name" name="template_name" value=""/><br/><br/>
+                        <input type="text" id="template_name" name="template_name"/><br/><br/>
 
                         <label for="" class="required">Relation Type: </label>
                         <label><input type="radio" id="relation_type" name="relation_type" value="customer" />

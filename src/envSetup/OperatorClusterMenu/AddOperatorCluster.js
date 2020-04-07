@@ -7,7 +7,7 @@ class AddOperatorCluster extends Component{
                 <form>
                     <fieldset>
                     <label for="clustername" class="required">Cluster name:</label>
-                        <input type="text" id="cluster_name" name="cluster_name" value=""/><br/><br/>
+                        <input type="text" id="cluster_name" name="cluster_name" /><br/><br/>
 
                         <label for="" class="required">Cluster Type: </label>
                         <label><input type="radio" id="cluster_type" name="cluster_type" value="Default" />

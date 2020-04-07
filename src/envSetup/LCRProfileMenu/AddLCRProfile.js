@@ -7,7 +7,7 @@ class AddLCRProfile extends Component{
                 <form>
                     <fieldset>
                     <label for="lcrprofile_name" class="required">LCR Profile name:</label>
-                        <input type="text" id="lcrprofile_name" name="lcrprofile_name" value=""/><br/><br/>
+                        <input type="text" id="lcrprofile_name" name="lcrprofile_name" /><br/><br/>
 
                         <label for="" class="required">LCR Type: </label>
                         <select id="lcrtype" name="lcrtype">
