@@ -59,11 +59,11 @@ class Main extends Component{
                                 <ul> <NavLink  to="/environmentSetup-redirectionList">Redirection Lists</NavLink></ul>
                                 <ul> <NavLink  to="/link1">Operator Profile</NavLink></ul>
                                 <ul> <NavLink  to="/environmentSetup-pathDetails">Path Details</NavLink></ul>
-                                <ul> <NavLink  to="/link1">Operator Cluster</NavLink></ul>
-                                <ul> <NavLink  to="/link1">LCR Profile</NavLink></ul>
-                                <ul> <NavLink  to="/link1">SC AT LCR Profile</NavLink></ul>
-                                <ul> <NavLink  to="/link1">Customer Suppliers</NavLink></ul>
-                                <ul> <NavLink  to="/link1">HTTP Templates</NavLink></ul>
+                                <ul> <NavLink  to="/environmentSetup-operatorCluster">Operator Cluster</NavLink></ul>
+                                <ul> <NavLink  to="/environmentSetup-lcrProfile">LCR Profile</NavLink></ul>
+                                <ul> <NavLink  to="/environmentSetup-scatLcrProfile">SC AT LCR Profile</NavLink></ul>
+                                <ul> <NavLink  to="/environmentSetup-customerSupplier">Customer Suppliers</NavLink></ul>
+                                <ul> <NavLink  to="/environmentSetup-httpTemplates">HTTP Templates</NavLink></ul>
                                 <ul> <NavLink  to="/environmentSetup-customerSupplierGroup">Customer Supplier Group</NavLink></ul>
                                 <ul> <NavLink  to="/environmentSetup-dealManagement">Deal Management</NavLink></ul>
                                 <ul> <NavLink  to="/environmentSetup-channelPartner">Channel Partner</NavLink></ul>
