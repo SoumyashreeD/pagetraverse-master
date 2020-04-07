@@ -12,7 +12,7 @@ class AddSeries extends Component{
            numbers:'',
             message: null
         }
-        this.saveSeries = this.saveSeries.bind(this);
+        //this.saveSeries = this.saveSeries.bind(this);
         this.handleDropdownChangeGroupType = this.handleDropdownChangeGroupType .bind(this);
   
     }
